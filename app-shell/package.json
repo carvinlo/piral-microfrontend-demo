@@ -10,8 +10,8 @@
     "piral-containers": "0.11.4"
   },
   "scripts": {
-    "start": "piral debug",
-    "build": "piral build"
+    "start": "piral debug-wp",
+    "build": "piral build-wp"
   },
   "app": "./src/index.html",
   "main": "lib/index.js",
@@ -31,6 +31,7 @@
     "@types/react-router": "latest",
     "@types/react-router-dom": "latest",
     "piral-cli": "0.11.4",
+    "piral-cli-webpack": "0.5.1",
     "typescript": "latest"
   },
   "typings": "lib/index.d.ts"
