@@ -14,7 +14,7 @@ export interface ProductPageProps {
   BasketInfo: React.ComponentType;
 }
 
-export const ProductPage: React.FC<ProductPageProps> = ({ name, history, BasketInfo, BuyButton, Recommendations }) => {
+export default ({ name, history, BasketInfo, BuyButton, Recommendations }) => {
   const [variant] = product.variants.filter(v => name === v.sku);
 
   return (
